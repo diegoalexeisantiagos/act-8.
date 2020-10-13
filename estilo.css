@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(161, 161, 161);
+}
+.uno{
+    background: rgb(255, 254, 254);
+    width: 400px;
+    height: 200px;
+
+    padding-top: 20px ;
+    padding-right:20px ;
+    padding-bottom: 20px;
+    padding-left:20px ;
+
+    border:10px solid black;
+
+    margin-top:20px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width:400px){
+    header,nav,section,article,aside,footer{
+        width:100%;
+    }
+}
+
+.dos{
+    background:rgba(158, 4, 150, 0.575) ;
+    width: 200px;
+    height:100px ;
+
+    padding: 20px 20px 20px 20px;
+
+    border: 10px solid rgb(255, 255, 255);
+
+    margin: 20px auto;
+}
+
+p{
+    padding: 20px;
+    background-color: rgb(46, 1, 42);
+    color: white;
+}
